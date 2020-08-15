@@ -1,6 +1,6 @@
 nav{
     padding: 0px;
-    background-color: rgba(245, , 245, 0.8);
+    background-color: rgba(245, 245, 245, 0.8);
     height: 75px;
   }
 .nav-item{
@@ -12,4 +12,11 @@ nav{
     background-color: rgba(138, 208, 255, 0.5);
     box-shadow: 0 1px 2px rgba(0,0,0,0.5);
     transition: all 0.5s ease-in-out;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+nav a:active{
+    color: black;
 }

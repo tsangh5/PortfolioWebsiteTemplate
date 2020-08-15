@@ -1,59 +1,51 @@
-all{
-    --background-size: cover;
-    --cursor: pointer;
-    --overflow: hidden;  
-}
 .header{
-    height: 100px;
+    color: whitesmoke;
     text-align: center;
-    background-image: url(https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg?cs=srgb&dl=pexels-neo-2653362.jpg&fm=jpg);
+    background-image: url("https://images.pexels.com/photos/113850/pexels-photo-113850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-size: cover;
-    padding: none;
+    height: 100px;
+    padding: 10px;
 }
-h1{
-    padding: 25px;
-    color: aliceblue;
-}
-
-.flex-container{
-    padding: 40px 400px;
-    font-family: monospace;
+.box-1{
+    padding: 10px;
     display: flex;
-    flex-wrap: wrap;
-    background-color: white;
-    justify-content: center;
-}    
-
-.flex-container > div{
-    height: 100px;
-    padding: 50px 30px;
-    text-align: center;
-    font-size: 25px;
 }
-.project{
-    padding: 50px 50px;
+.box-1 div{
+    border: 1px black solid;
+    padding: 20px;
 }
-.flex-container > div:hover{
-    box-shadow: 0 1px 2px rgba(0,0,0,0.5);
-    transition: all 0.5s ease-in-out;
+.title{
+    flex: 1;
+    color: rgba(255, 255, 255, 0);
+    font-size: 30px;
+    text-align: center;}
+.title:hover{
+    color:rgba(255, 255, 255, 1);
+    transition: .5s ease;
 }
-.container{
-    padding: none;
+.title h2{
+    padding: 20px;
 }
-#project-1{
-    --background-image: url(https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+#one{
+    background-image: url('https://images.pexels.com/photos/270360/pexels-photo-270360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
     background-size: cover;
-    cursor: pointer;
-    overflow: hidden;  
+}
+#two{
+    background-image: url('https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-size: cover;
+}
+#three{
+    background-image: url("https://images.pexels.com/photos/1936299/pexels-photo-1936299.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
+}
+#four{
+    background-image: url("https://images.pexels.com/photos/330771/pexels-photo-330771.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
+}
+#five{
+    background-image: url("https://images.pexels.com/photos/3861976/pexels-photo-3861976.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
 }
 .text{
-    height:100px;
-    opacity: 0;
-}
-.text:hover{
-    opacity: 100%;
-    transition: all 0.6s ease-in-out;
-}
-.text > h2{
-    color: white;
+    flex: 2;
 }
